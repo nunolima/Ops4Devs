@@ -39,3 +39,29 @@ myapp
 └── values.yaml
 ```
 
+#### Chart.yaml
+
+This file stores the metadata of our project.
+Here we can define the project name and description. 
+The minimum required cluster and helm versions and the current Chart version so we can then manage helm upgrades or rollbacks.
+
+#### *templates/* directory
+
+In *templates/* folder we place YAML definitions for all Kubernetes objects we need for our project.
+The "helm create" command gived us same examples:
+
+- deployment.yaml
+- hpa.yaml
+- ingress.yaml
+- serviceaccount.yaml
+- service.yaml
+
+We can replace, delete or create some other files.
+
+Commands like, "helm install" or "helm update" will trigger Helm template rendering engine. 
+
+It uses the [*GoLang "template" package*](https://golang.org/pkg/text/template/) that searchs for strings delimited by "{{" and "}}". This are called "Actions" and they can be "data evaluations" or "control structures".
+
+#### values.yaml
+
+lalala
