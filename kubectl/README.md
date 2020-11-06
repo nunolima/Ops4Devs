@@ -7,6 +7,7 @@ Operations for Developers
 ## kubectl
 
 [kubectl site](https://kubernetes.io/docs/reference/kubectl/kubectl/)
+[kubectl cheat sheet](https://v1-16.docs.kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 ### How to install kubectl
 
