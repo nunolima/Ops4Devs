@@ -11,6 +11,13 @@ Operations for Developers
 
 ### How to install kubectl
 
+```bash
+curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
+kubectl version --client
+```
+
 ### Define default namespace
 
 The next command will add or update our kube config file at current context the selected namespace.
