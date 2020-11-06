@@ -5,8 +5,8 @@
 Index:
 
 1. [Helm Install](./00-helm-install.md)
-2. [Chart Projects](./01-chart-projects)
-3. [Chart Repositories](./02-chart-repositories)
+2. [Chart Projects](./01-chart-projects.md)
+3. [Chart Repositories](./02-chart-repositories.md)
 4. [Helm package manager](./03-helm-package-manage.md)
 5. [Helm Cheat Sheet](./04-helm-cheat-sheet.md)
 
